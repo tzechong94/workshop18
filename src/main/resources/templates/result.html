@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body data-th-object="${result}">
+    <div class="container">
+        <h1>Results</h1>
+        <br>
+        <p>Name 1: <span data-th-text="*{fname}"></span></p>
+        <p>Name 2: <span data-th-text="*{sname}"></span></p>
+        <p>Percentage: <span data-th-text="*{percentage}"></span> % </p>
+        <p>Result: <span data-th-text="*{compatibility}"></span></p>
+        <a href="/">Go Back</a><br>
+        <a href="/list">See all results</a>
+
+    </div>
+
+</body>
+</html>
+

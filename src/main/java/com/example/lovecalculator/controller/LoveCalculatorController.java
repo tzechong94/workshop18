@@ -19,7 +19,7 @@ public class LoveCalculatorController {
     private LoveCalculatorService loveSvc;
 
 
-    @GetMapping(path="result")
+    @GetMapping(path="/result")
     public String getResult(@RequestParam(required = true)String fname,
      @RequestParam(required = true) String sname, 
      Model model) throws Exception{
